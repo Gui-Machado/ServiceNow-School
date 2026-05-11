@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c165eca983f003103a6114d0deaad307" extends="task" label="Enrollment" max_length="40" name="x_1974925_servic_0_enrollment" type="collection">
+        <element label="Course" max_length="32" name="course" reference="x_1974925_servic_0_schedule" type="reference"/>
+        <element label="Student" max_length="32" name="student" reference="sys_user" type="reference"/>
+    </element>
+</database>

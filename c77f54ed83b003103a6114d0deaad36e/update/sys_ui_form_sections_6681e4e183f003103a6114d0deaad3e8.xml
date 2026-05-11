@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="6681e4e183f003103a6114d0deaad3e8" sys_domain="global" table="x_1974925_servic_0_trainning_subjects" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-11 14:16:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ee81e4e183f003103a6114d0deaad3ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1974925_servic_0_trainning_subjects" name="x_1974925_servic_0_trainning_subjects" sys_domain="global" view="Default view">6681e4e183f003103a6114d0deaad3e8</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1974925_servic_0_trainning_subjects" sys_domain="global" view="Default view">b870ec6583b003103a6114d0deaad3dc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-11 14:16:49</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-11 14:16:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6e81e4e183f003103a6114d0deaad3fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1974925_servic_0_trainning_subjects" name="x_1974925_servic_0_trainning_subjects" sys_domain="global" view="Default view">6681e4e183f003103a6114d0deaad3e8</sys_ui_form>
+            <sys_ui_section caption="Integration" display_value="Integration" name="x_1974925_servic_0_trainning_subjects" sys_domain="global" view="Default view">ae81e4e183f003103a6114d0deaad3e6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-11 14:16:49</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1974925_servic_0_trainning_subjects</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-11 14:16:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6681e4e183f003103a6114d0deaad3e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1974925_servic_0_trainning_subjects</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ServiceNow School" source="x_1974925_servic_0">c77f54ed83b003103a6114d0deaad36e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ServiceNow School">c77f54ed83b003103a6114d0deaad36e</sys_scope>
+            <sys_update_name>sys_ui_form_sections_6681e4e183f003103a6114d0deaad3e8</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-11 14:16:48</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0e82646583f003103a6114d0deaad366" label="Schedule" max_length="40" name="x_1974925_servic_0_schedule" type="collection">
+        <element label="Max Students" max_length="40" name="max_students" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="0" label="Current Students" max_length="255" name="current_students" type="float"/>
+        <element label="Trainning Date" max_length="40" name="trainning_date" type="glide_date"/>
+        <element label="Class Subject" max_length="32" name="class_subject" reference="x_1974925_servic_0_trainning_subjects" type="reference"/>
+        <element label="Instructor" max_length="32" name="instructor" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="class_subject"/>
+        </index>
+        <index name="index2">
+            <element name="instructor"/>
+        </index>
+    </element>
+</database>

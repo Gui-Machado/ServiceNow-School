@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2c70a06183f003103a6114d0deaad3cb" label="Trainning Subjects" max_length="40" name="x_1974925_servic_0_trainning_subjects" type="collection">
+        <element label="Integration State Message" max_length="4000" name="integration_state_message" type="string"/>
+        <element default="1" label="Integration State" max_length="40" name="integration_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Integration Failure" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Integrating" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Starting" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Integration Success" sequence="2" value="3"/>
+            </choice>
+        </element>
+        <element label="Description" max_length="4000" name="description" type="string"/>
+        <element display="true" label="Name" max_length="100" name="name" type="string"/>
+    </element>
+</database>
