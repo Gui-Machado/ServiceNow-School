@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>trainning_date</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Can't repeat subject and day (date)</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '' || g_form.getValue("class_subject") === '') {
+        return;
+    }
+
+    let [day, month, year] = newValue.split("/");
+    let dateInQuestion = `${year}-${month}-${day}`;
+
+	let gaSchedule = new GlideAjax("ServiceNow_School_Ajax");
+	gaSchedule.addParam("sysparm_name", "findSubjectDate");
+	gaSchedule.addParam("sysparm_trainning_date", dateInQuestion);
+	gaSchedule.addParam("sysparm_class_subject", g_form.getValue("class_subject"));
+
+	gaSchedule.getXMLAnswer(function(response){
+		let objResponse = JSON.parse(response);
+		if(objResponse.sys_id != null){
+        	g_form.addErrorMessage(`There's already a class with this subject on this date! Check <a href="https://dev273945.service-now.com/nav_to.do?uri=x_1974925_servic_0_schedule.do?sys_id=${objResponse.sys_id}">${objResponse.number}</a> for information.`);
+        	g_form.setValue("trainning_date", "");
+		}
+		else {
+        	g_form.clearMessages();
+   		}
+	})
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-12 20:21:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>05bebaf58334c3103a6114d0deaad3fc</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Can't repeat subject and day (date)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ServiceNow School" source="x_1974925_servic_0">c77f54ed83b003103a6114d0deaad36e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow School">c77f54ed83b003103a6114d0deaad36e</sys_scope>
+        <sys_update_name>sys_script_client_05bebaf58334c3103a6114d0deaad3fc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-12 20:28:17</sys_updated_on>
+        <table>x_1974925_servic_0_schedule</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

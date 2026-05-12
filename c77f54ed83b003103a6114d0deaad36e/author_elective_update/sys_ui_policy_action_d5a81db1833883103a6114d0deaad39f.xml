@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>true</cleared>
+        <disabled>true</disabled>
+        <field>class_subject</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>false</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-12 12:56:25</sys_created_on>
+        <sys_id>d5a81db1833883103a6114d0deaad39f</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>class_subject</sys_name>
+        <sys_package display_value="ServiceNow School" source="x_1974925_servic_0">c77f54ed83b003103a6114d0deaad36e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow School">c77f54ed83b003103a6114d0deaad36e</sys_scope>
+        <sys_update_name>sys_ui_policy_action_d5a81db1833883103a6114d0deaad39f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-12 18:08:28</sys_updated_on>
+        <table>x_1974925_servic_0_schedule</table>
+        <ui_policy display_value="Must insert date before class subject (Class Schedule)">587811fd83f483103a6114d0deaad3db</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=d5a81db1833883103a6114d0deaad39f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ServiceNow School">c77f54ed83b003103a6114d0deaad36e</application>
+        <file_path/>
+        <instance_id>6b01c69a1baa0ed0c8432f8dee4bcb54</instance_id>
+        <instance_name>dev273945</instance_name>
+        <name>sys_ui_policy_action_d5a81db1833883103a6114d0deaad39f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>true</cleared><disabled>true</disabled><field>class_subject</field><field_message/><field_message_type>none</field_message_type><mandatory>false</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-12 12:56:25</sys_created_on><sys_id>d5a81db1833883103a6114d0deaad39f</sys_id><sys_mod_count>11</sys_mod_count><sys_name>class_subject</sys_name><sys_package display_value="ServiceNow School" source="x_1974925_servic_0">c77f54ed83b003103a6114d0deaad36e</sys_package><sys_policy/><sys_scope display_value="ServiceNow School">c77f54ed83b003103a6114d0deaad36e</sys_scope><sys_update_name>sys_ui_policy_action_d5a81db1833883103a6114d0deaad39f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-12 18:08:28</sys_updated_on><table>x_1974925_servic_0_schedule</table><ui_policy display_value="Must insert date before class subject (Class Schedule)">587811fd83f483103a6114d0deaad3db</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=d5a81db1833883103a6114d0deaad39f"/></record_update>]]></payload>
+        <payload_hash>209396219</payload_hash>
+        <record_name>class_subject</record_name>
+        <reverted_from/>
+        <source>6ea9e8e1833403103a6114d0deaad321</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-12 18:08:28</sys_created_on>
+        <sys_id>35202e7d8330c3103a6114d0deaad32d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e1d60446d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-12 18:08:28</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>b1202e7d5730c310783bdf50bf11152c</update_guid>
+        <update_guid_history>b1202e7d5730c310783bdf50bf11152c:209396219,6c20ee7d9730c310e70bf42d8bd15a43:-1058140408,aaff1a3dda30c3108346ee9b1d5b72e5:1026444612,3c4f923daa30c3108df596923418f35c:-1158361935,173f523db130c3105b0ffcee53222957:1397496178,f03fdef96630c3106bb8ea603290ebe2:-1610931463,850f1af9dc30c31098eeea2c6622e352:-433948106,7ebe56392530c3104ea66c00aa6cba05:-1355988115,c98e52797b30c3107dc9355b49c6602a:-433948106,5b5e92b98c30c310d938c3470e9c7196:1698012583,b32c51b93238831020c3630772b5d851:-446984408,eeb8ddb12a3883102ce5a6ffda8a3c45:1854155531</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-12 20:25:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>226aa2c1805049988fbf3502a38f6c40</sys_id>
+        <sys_metadata>d5a81db1833883103a6114d0deaad39f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>class_subject</sys_name>
+        <sys_package display_value="ServiceNow School" source="x_1974925_servic_0">c77f54ed83b003103a6114d0deaad36e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow School">c77f54ed83b003103a6114d0deaad36e</sys_scope>
+        <sys_scope_delete display_value="">051f1d4bf1544a82812341d2570421c4</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_d5a81db1833883103a6114d0deaad39f</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_d5a81db1833883103a6114d0deaad39f">35202e7d8330c3103a6114d0deaad32d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-12 20:25:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

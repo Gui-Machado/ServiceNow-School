@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="DELETE">
+        <active>true</active>
+        <condition table="x_1974925_servic_0_enrollment">state=8^EQ<item display_value="Approved - Awating Course" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="8"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>Approved - Awating Course</label>
+        <name>School - Approved - Awating Course</name>
+        <order>300</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-11 17:19:18</sys_created_on>
+        <sys_id>2f4b45ad83f403103a6114d0deaad335</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>School - Approved - Awating Course</sys_name>
+        <sys_package display_value="ServiceNow School" source="x_1974925_servic_0">c77f54ed83b003103a6114d0deaad36e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow School">c77f54ed83b003103a6114d0deaad36e</sys_scope>
+        <sys_update_name>sys_process_flow_2f4b45ad83f403103a6114d0deaad335</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-11 17:20:41</sys_updated_on>
+        <table>x_1974925_servic_0_enrollment</table>
+    </sys_process_flow>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ServiceNow School">c77f54ed83b003103a6114d0deaad36e</application>
+        <file_path/>
+        <instance_id>6b01c69a1baa0ed0c8432f8dee4bcb54</instance_id>
+        <instance_name>dev273945</instance_name>
+        <name>sys_process_flow_2f4b45ad83f403103a6114d0deaad335</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow"><sys_process_flow action="INSERT_OR_UPDATE"><active>true</active><condition table="x_1974925_servic_0_enrollment">state=8^EQ<item display_value="Approved - Awating Course" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="8"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><description/><label>Approved - Awating Course</label><name>School - Approved - Awating Course</name><order>300</order><sys_class_name>sys_process_flow</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-11 17:19:18</sys_created_on><sys_id>2f4b45ad83f403103a6114d0deaad335</sys_id><sys_mod_count>2</sys_mod_count><sys_name>School - Approved - Awating Course</sys_name><sys_package display_value="ServiceNow School" source="x_1974925_servic_0">c77f54ed83b003103a6114d0deaad36e</sys_package><sys_policy/><sys_scope display_value="ServiceNow School">c77f54ed83b003103a6114d0deaad36e</sys_scope><sys_update_name>sys_process_flow_2f4b45ad83f403103a6114d0deaad335</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-11 17:20:41</sys_updated_on><table>x_1974925_servic_0_enrollment</table></sys_process_flow></record_update>]]></payload>
+        <payload_hash>-1305470101</payload_hash>
+        <record_name>School - Approved - Awating Course</record_name>
+        <reverted_from/>
+        <source>6ea9e8e1833403103a6114d0deaad321</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-11 17:20:41</sys_created_on>
+        <sys_id>4cabcde1833803103a6114d0deaad331</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e180e278d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-11 17:20:41</sys_updated_on>
+        <type>Flow Formatter</type>
+        <update_guid>c8abcde1f5380310021c539db7457a30</update_guid>
+        <update_guid_history>c8abcde1f5380310021c539db7457a30:-1305470101,f95bc9e111380310334a704c81dc25d4:-1838779,234b45ad4ff403100e5d61b8070c5e38:-19102889</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-12 17:51:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_process_flow">sys_process_flow</sys_db_object>
+        <sys_id>1b46c9fa63284ee884e9480f96b93684</sys_id>
+        <sys_metadata>2f4b45ad83f403103a6114d0deaad335</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>School - Approved - Awating Course</sys_name>
+        <sys_package display_value="ServiceNow School" source="x_1974925_servic_0">c77f54ed83b003103a6114d0deaad36e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow School">c77f54ed83b003103a6114d0deaad36e</sys_scope>
+        <sys_scope_delete display_value="">051f1d4bf1544a82812341d2570421c4</sys_scope_delete>
+        <sys_update_name>sys_process_flow_2f4b45ad83f403103a6114d0deaad335</sys_update_name>
+        <sys_update_version display_value="sys_process_flow_2f4b45ad83f403103a6114d0deaad335">4cabcde1833803103a6114d0deaad331</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-12 17:51:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

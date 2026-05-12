@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>trainning_date</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-12 18:16:44</sys_created_on>
+        <sys_id>b7f12e718370c3103a6114d0deaad392</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>trainning_date</sys_name>
+        <sys_package display_value="ServiceNow School" source="x_1974925_servic_0">c77f54ed83b003103a6114d0deaad36e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow School">c77f54ed83b003103a6114d0deaad36e</sys_scope>
+        <sys_update_name>sys_ui_policy_action_b7f12e718370c3103a6114d0deaad392</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-12 18:16:44</sys_updated_on>
+        <table>x_1974925_servic_0_schedule</table>
+        <ui_policy display_value="Show description and lock date if course selected (Class Schedule)">53612a318370c3103a6114d0deaad3e8</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=b7f12e718370c3103a6114d0deaad392"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ServiceNow School">c77f54ed83b003103a6114d0deaad36e</application>
+        <file_path/>
+        <instance_id>6b01c69a1baa0ed0c8432f8dee4bcb54</instance_id>
+        <instance_name>dev273945</instance_name>
+        <name>sys_ui_policy_action_b7f12e718370c3103a6114d0deaad392</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>trainning_date</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-12 18:16:44</sys_created_on><sys_id>b7f12e718370c3103a6114d0deaad392</sys_id><sys_mod_count>0</sys_mod_count><sys_name>trainning_date</sys_name><sys_package display_value="ServiceNow School" source="x_1974925_servic_0">c77f54ed83b003103a6114d0deaad36e</sys_package><sys_policy/><sys_scope display_value="ServiceNow School">c77f54ed83b003103a6114d0deaad36e</sys_scope><sys_update_name>sys_ui_policy_action_b7f12e718370c3103a6114d0deaad392</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-12 18:16:44</sys_updated_on><table>x_1974925_servic_0_schedule</table><ui_policy display_value="Show description and lock date if course selected (Class Schedule)">53612a318370c3103a6114d0deaad3e8</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=b7f12e718370c3103a6114d0deaad392"/></record_update>]]></payload>
+        <payload_hash>1045260933</payload_hash>
+        <record_name>trainning_date</record_name>
+        <reverted_from/>
+        <source>6ea9e8e1833403103a6114d0deaad321</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-12 18:16:44</sys_created_on>
+        <sys_id>72026e318370c3103a6114d0deaad373</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e1d67d61e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-12 18:16:44</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>7e026e31bc70c31052ce24727149fa71</update_guid>
+        <update_guid_history>7e026e31bc70c31052ce24727149fa71:1045260933</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-12 20:26:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>8df64d718b3d458c84176f18f004baa1</sys_id>
+        <sys_metadata>b7f12e718370c3103a6114d0deaad392</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>trainning_date</sys_name>
+        <sys_package display_value="ServiceNow School" source="x_1974925_servic_0">c77f54ed83b003103a6114d0deaad36e</sys_package>
+        <sys_parent display_value="Hide description  if course not selected (Class Schedule)">53612a318370c3103a6114d0deaad3e8</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow School">c77f54ed83b003103a6114d0deaad36e</sys_scope>
+        <sys_scope_delete display_value="">051f1d4bf1544a82812341d2570421c4</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_b7f12e718370c3103a6114d0deaad392</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_b7f12e718370c3103a6114d0deaad392">72026e318370c3103a6114d0deaad373</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-12 20:26:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

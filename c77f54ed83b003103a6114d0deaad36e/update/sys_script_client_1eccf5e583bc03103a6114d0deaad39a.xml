@@ -16,17 +16,17 @@
    }
    //Type appropriate comment here, and begin script below
    let [day, month, year] = newValue.split("/");
-   g_form.addErrorMessage(day);
-   g_form.addErrorMessage(month);
-   g_form.addErrorMessage(year);
+   let formDate = new Date(year, month-1, day), currentDate = new Date();
+//    g_form.addErrorMessage(formDate);
+//    g_form.addErrorMessage(currentDate);
 
-//    if(){
-// 	g_form.addErrorMessage("Invalid format for Release Year!!!");
-// 	g_form.setValue("trainning_date", "");
-//    }
-//    else {
-// 	g_form.clearMessages();
-//    }
+   if(currentDate > formDate){
+	g_form.addErrorMessage("Invalid date! You must select a future date.");
+	g_form.setValue("trainning_date", "");
+   }
+   else {
+	g_form.clearMessages();
+   }
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -34,7 +34,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1eccf5e583bc03103a6114d0deaad39a</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Only Future Dates (SN Schedule)</sys_name>
         <sys_overrides/>
         <sys_package display_value="ServiceNow School" source="x_1974925_servic_0">c77f54ed83b003103a6114d0deaad36e</sys_package>
@@ -42,7 +42,7 @@
         <sys_scope display_value="ServiceNow School">c77f54ed83b003103a6114d0deaad36e</sys_scope>
         <sys_update_name>sys_script_client_1eccf5e583bc03103a6114d0deaad39a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-05-11 21:04:36</sys_updated_on>
+        <sys_updated_on>2026-05-12 12:34:18</sys_updated_on>
         <table>x_1974925_servic_0_schedule</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

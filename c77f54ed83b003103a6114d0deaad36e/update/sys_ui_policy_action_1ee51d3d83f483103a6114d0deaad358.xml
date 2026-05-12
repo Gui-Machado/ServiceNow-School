@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>trainning_date</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-12 12:44:07</sys_created_on>
+        <sys_id>1ee51d3d83f483103a6114d0deaad358</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>trainning_date</sys_name>
+        <sys_package display_value="ServiceNow School" source="x_1974925_servic_0">c77f54ed83b003103a6114d0deaad36e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow School">c77f54ed83b003103a6114d0deaad36e</sys_scope>
+        <sys_update_name>sys_ui_policy_action_1ee51d3d83f483103a6114d0deaad358</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-12 12:44:07</sys_updated_on>
+        <table>x_1974925_servic_0_schedule</table>
+        <ui_policy display_value="Mandatory Fields (Class Schedule)">c795953d83f483103a6114d0deaad3d2</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=1ee51d3d83f483103a6114d0deaad358"/>
+</record_update>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1974925_servic_0.ServiceNow_School_Utils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>ServiceNow_School_Utils</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var ServiceNow_School_Utils = Class.create();
+ServiceNow_School_Utils.prototype = {
+    initialize: function() {},
+    refQualRecordProducer: function() {
+        let grCourses = new GlideRecord("x_1974925_servic_0_schedule"), coursesToShow = [];
+        grCourses.addEncodedQuery("trainning_date>javascript:gs.endOfToday()^current_studentsLT_FIELDmax_students");
+        grCourses.query();
+
+        while (grCourses.next()) {
+            if (!(grCourses.instructor == gs.getUserID())) {
+
+                let grEnrollments = new GlideRecord("x_1974925_servic_0_enrollment");
+                grEnrollments.addQuery("student", gs.getUserID());
+                grEnrollments.addQuery("course.class_subject", grCourses.class_subject);
+                grEnrollments.query();
+
+                gs.info(grEnrollments.getRowCount());
+                if (grEnrollments.getRowCount() == 0) {
+                    coursesToShow.push(grCourses.getUniqueValue());
+                } else if (grEnrollments.getRowCount() < 3) {
+                    let auxSearch = false;
+                    while (grEnrollments.next()) {
+                        if (grEnrollments.course == grCourses.getUniqueValue()) {
+                            auxSearch = true;
+							break;
+                        }
+                    }
+                    if (!auxSearch) {
+                        coursesToShow.push(grCourses.getUniqueValue());
+                    }
+                }
+            }
+        }
+        return "sys_idIN" + coursesToShow.join(",");
+    },
+
+    type: 'ServiceNow_School_Utils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-12 13:57:31</sys_created_on>
+        <sys_id>5172e1b5837883103a6114d0deaad3a3</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>ServiceNow_School_Utils</sys_name>
+        <sys_package display_value="ServiceNow School" source="x_1974925_servic_0">c77f54ed83b003103a6114d0deaad36e</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="ServiceNow School">c77f54ed83b003103a6114d0deaad36e</sys_scope>
+        <sys_update_name>sys_script_include_5172e1b5837883103a6114d0deaad3a3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-12 17:58:42</sys_updated_on>
+    </sys_script_include>
+</record_update>
