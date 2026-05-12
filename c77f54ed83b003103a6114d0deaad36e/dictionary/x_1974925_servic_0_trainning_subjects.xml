@@ -10,6 +10,7 @@
             </choice>
         </element>
         <element label="Description" max_length="4000" name="description" type="string"/>
+        <element label="Description (english)" max_length="4000" name="description_en_us" type="string"/>
         <element display="true" label="Name" max_length="100" name="name" type="string"/>
     </element>
 </database>

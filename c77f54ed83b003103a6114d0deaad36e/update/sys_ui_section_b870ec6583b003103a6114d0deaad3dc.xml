@@ -4,13 +4,13 @@
             <element>name</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-11 14:16:49</sys_created_on>
-            <sys_id>628128e183f003103a6114d0deaad302</sys_id>
+            <sys_created_on>2026-05-11 17:55:58</sys_created_on>
+            <sys_id>34b39925837803103a6114d0deaad31a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1974925_servic_0_trainning_subjects" sys_domain="global" view="Default view">b870ec6583b003103a6114d0deaad3dc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-11 14:16:49</sys_updated_on>
+            <sys_updated_on>2026-05-11 17:55:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,27 @@
             <element>description</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-11 14:16:49</sys_created_on>
-            <sys_id>aa8128e183f003103a6114d0deaad303</sys_id>
+            <sys_created_on>2026-05-11 17:55:58</sys_created_on>
+            <sys_id>b0b39925837803103a6114d0deaad31b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1974925_servic_0_trainning_subjects" sys_domain="global" view="Default view">b870ec6583b003103a6114d0deaad3dc</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-11 14:16:49</sys_updated_on>
+            <sys_updated_on>2026-05-11 17:55:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description_en_us</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-11 17:55:58</sys_created_on>
+            <sys_id>30b39925837803103a6114d0deaad31c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1974925_servic_0_trainning_subjects" sys_domain="global" view="Default view">b870ec6583b003103a6114d0deaad3dc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-11 17:55:58</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

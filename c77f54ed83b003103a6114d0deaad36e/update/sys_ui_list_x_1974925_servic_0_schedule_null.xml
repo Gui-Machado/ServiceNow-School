@@ -2,78 +2,93 @@
     <sys_ui_list parent="" relationship="" sys_domain="global" table="x_1974925_servic_0_schedule" version="2" view="">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>sys_created_on</element>
-            <list_id display_value="x_1974925_servic_0_schedule" element="NULL" name="x_1974925_servic_0_schedule" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a28224a183f003103a6114d0deaad3fc</list_id>
+            <element>number</element>
+            <list_id display_value="x_1974925_servic_0_schedule" element="NULL" name="x_1974925_servic_0_schedule" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fcd961a1833c03103a6114d0deaad3ed</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-11 14:21:11</sys_created_on>
-            <sys_id>ae82a46583f003103a6114d0deaad340</sys_id>
+            <sys_created_on>2026-05-11 19:32:38</sys_created_on>
+            <sys_id>bcd961a1833c03103a6114d0deaad3ee</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-11 14:21:11</sys_updated_on>
+            <sys_updated_on>2026-05-11 19:32:38</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>sys_created_by</element>
-            <list_id display_value="x_1974925_servic_0_schedule" element="NULL" name="x_1974925_servic_0_schedule" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a28224a183f003103a6114d0deaad3fc</list_id>
+            <element>class_subject</element>
+            <list_id display_value="x_1974925_servic_0_schedule" element="NULL" name="x_1974925_servic_0_schedule" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fcd961a1833c03103a6114d0deaad3ed</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-11 14:21:11</sys_created_on>
-            <sys_id>2682a46583f003103a6114d0deaad341</sys_id>
+            <sys_created_on>2026-05-11 19:32:38</sys_created_on>
+            <sys_id>34d961a1833c03103a6114d0deaad3ef</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-11 14:21:11</sys_updated_on>
+            <sys_updated_on>2026-05-11 19:32:38</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>sys_updated_on</element>
-            <list_id display_value="x_1974925_servic_0_schedule" element="NULL" name="x_1974925_servic_0_schedule" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a28224a183f003103a6114d0deaad3fc</list_id>
+            <element>instructor</element>
+            <list_id display_value="x_1974925_servic_0_schedule" element="NULL" name="x_1974925_servic_0_schedule" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fcd961a1833c03103a6114d0deaad3ed</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-11 14:21:11</sys_created_on>
-            <sys_id>aa82a46583f003103a6114d0deaad341</sys_id>
+            <sys_created_on>2026-05-11 19:32:38</sys_created_on>
+            <sys_id>b8d961a1833c03103a6114d0deaad3ef</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-11 14:21:11</sys_updated_on>
+            <sys_updated_on>2026-05-11 19:32:38</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>sys_updated_by</element>
-            <list_id display_value="x_1974925_servic_0_schedule" element="NULL" name="x_1974925_servic_0_schedule" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a28224a183f003103a6114d0deaad3fc</list_id>
+            <element>trainning_date</element>
+            <list_id display_value="x_1974925_servic_0_schedule" element="NULL" name="x_1974925_servic_0_schedule" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fcd961a1833c03103a6114d0deaad3ed</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-11 14:21:11</sys_created_on>
-            <sys_id>2282a46583f003103a6114d0deaad342</sys_id>
+            <sys_created_on>2026-05-11 19:32:38</sys_created_on>
+            <sys_id>30d961a1833c03103a6114d0deaad3f0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-11 14:21:11</sys_updated_on>
+            <sys_updated_on>2026-05-11 19:32:38</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>sys_mod_count</element>
-            <list_id display_value="x_1974925_servic_0_schedule" element="NULL" name="x_1974925_servic_0_schedule" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a28224a183f003103a6114d0deaad3fc</list_id>
+            <element>current_students</element>
+            <list_id display_value="x_1974925_servic_0_schedule" element="NULL" name="x_1974925_servic_0_schedule" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fcd961a1833c03103a6114d0deaad3ed</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-11 14:21:11</sys_created_on>
-            <sys_id>a682a46583f003103a6114d0deaad342</sys_id>
+            <sys_created_on>2026-05-11 19:32:38</sys_created_on>
+            <sys_id>b4d961a1833c03103a6114d0deaad3f0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-11 14:21:11</sys_updated_on>
+            <sys_updated_on>2026-05-11 19:32:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>max_students</element>
+            <list_id display_value="x_1974925_servic_0_schedule" element="NULL" name="x_1974925_servic_0_schedule" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">fcd961a1833c03103a6114d0deaad3ed</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-11 19:32:38</sys_created_on>
+            <sys_id>3cd961a1833c03103a6114d0deaad3f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-11 19:32:38</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -87,10 +102,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-05-11 14:21:11</sys_created_on>
+            <sys_created_on>2026-05-11 19:32:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>a28224a183f003103a6114d0deaad3fc</sys_id>
+            <sys_id>fcd961a1833c03103a6114d0deaad3ed</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_1974925_servic_0_schedule</sys_name>
             <sys_package display_value="ServiceNow School" source="x_1974925_servic_0">c77f54ed83b003103a6114d0deaad36e</sys_package>
@@ -98,7 +113,7 @@
             <sys_scope display_value="ServiceNow School">c77f54ed83b003103a6114d0deaad36e</sys_scope>
             <sys_update_name>sys_ui_list_x_1974925_servic_0_schedule_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-11 14:21:11</sys_updated_on>
+            <sys_updated_on>2026-05-11 19:32:38</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

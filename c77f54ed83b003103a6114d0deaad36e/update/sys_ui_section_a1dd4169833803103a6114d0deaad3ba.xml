@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Enrollment" section_id="a1dd4169833803103a6114d0deaad3ba" sys_domain="global" table="x_1974925_servic_0_enrollment" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>process_flow.xml</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-11 17:30:21</sys_created_on>
+            <sys_id>69dd4169833803103a6114d0deaad3bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Process Flow Enrollment Lifecycle">961b016d83f403103a6114d0deaad363</sys_ui_formatter>
+            <sys_ui_section caption="Enrollment" display_value="Enrollment" name="x_1974925_servic_0_enrollment" sys_domain="global" view="Default view">a1dd4169833803103a6114d0deaad3ba</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-11 17:30:21</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-11 17:30:21</sys_created_on>
+            <sys_id>fddd4169833803103a6114d0deaad3bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Enrollment" display_value="Enrollment" name="x_1974925_servic_0_enrollment" sys_domain="global" view="Default view">a1dd4169833803103a6114d0deaad3ba</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-11 17:30:21</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-11 17:30:21</sys_created_on>
+            <sys_id>7ddd4169833803103a6114d0deaad3be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Enrollment" display_value="Enrollment" name="x_1974925_servic_0_enrollment" sys_domain="global" view="Default view">a1dd4169833803103a6114d0deaad3ba</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-11 17:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>student</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-11 17:30:21</sys_created_on>
+            <sys_id>f9dd4169833803103a6114d0deaad3bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Enrollment" display_value="Enrollment" name="x_1974925_servic_0_enrollment" sys_domain="global" view="Default view">a1dd4169833803103a6114d0deaad3ba</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-11 17:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-11 17:30:21</sys_created_on>
+            <sys_id>79dd4169833803103a6114d0deaad3c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Enrollment" display_value="Enrollment" name="x_1974925_servic_0_enrollment" sys_domain="global" view="Default view">a1dd4169833803103a6114d0deaad3ba</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-11 17:30:21</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-11 17:30:21</sys_created_on>
+            <sys_id>f5dd4169833803103a6114d0deaad3c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Enrollment" display_value="Enrollment" name="x_1974925_servic_0_enrollment" sys_domain="global" view="Default view">a1dd4169833803103a6114d0deaad3ba</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-11 17:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>course</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-11 17:30:21</sys_created_on>
+            <sys_id>75dd4169833803103a6114d0deaad3c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Enrollment" display_value="Enrollment" name="x_1974925_servic_0_enrollment" sys_domain="global" view="Default view">a1dd4169833803103a6114d0deaad3ba</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-11 17:30:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Enrollment</caption>
+            <header>false</header>
+            <name>x_1974925_servic_0_enrollment</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-05-11 17:30:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a1dd4169833803103a6114d0deaad3ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1974925_servic_0_enrollment</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ServiceNow School" source="x_1974925_servic_0">c77f54ed83b003103a6114d0deaad36e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ServiceNow School">c77f54ed83b003103a6114d0deaad36e</sys_scope>
+            <sys_update_name>sys_ui_section_a1dd4169833803103a6114d0deaad3ba</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-05-11 17:30:21</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
