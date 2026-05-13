@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
     <sys_ui_policy action="INSERT_OR_UPDATE">
         <active>true</active>
-        <conditions table="x_1974925_servic_0_trainning_subjects">integration_state=4^EQ<item endquery="false" field="integration_state" goto="false" newquery="false" operator="=" or="false" value="4"/>
+        <conditions table="x_1974925_servic_0_trainning_subjects">integration_state=4^EQ<item display_value="Integration Failure" endquery="false" field="integration_state" goto="false" newquery="false" operator="=" or="false" value="4"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </conditions>
         <description/>

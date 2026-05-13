@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Translation Integration Host</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_1974925_servic_0.integration_host</name>
+        <read_roles/>
+        <suffix>integration_host</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-05-13 18:22:27</sys_created_on>
+        <sys_id>d4fc2bc283f447103a6114d0deaad334</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1974925_servic_0.integration_host</sys_name>
+        <sys_package display_value="ServiceNow School" source="x_1974925_servic_0">c77f54ed83b003103a6114d0deaad36e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceNow School">c77f54ed83b003103a6114d0deaad36e</sys_scope>
+        <sys_update_name>sys_properties_d4fc2bc283f447103a6114d0deaad334</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-05-13 18:22:27</sys_updated_on>
+        <type>string</type>
+        <value>openl-translate.p.rapidapi.com</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=d4fc2bc283f447103a6114d0deaad334"/>
+</record_update>

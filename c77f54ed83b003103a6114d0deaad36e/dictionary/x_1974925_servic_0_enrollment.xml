@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="c165eca983f003103a6114d0deaad307" extends="task" label="Enrollment" max_length="40" name="x_1974925_servic_0_enrollment" type="collection">
-        <element label="Course" max_length="32" name="course" reference="x_1974925_servic_0_schedule" type="reference"/>
+        <element label="Course" max_length="32" name="course" reference="x_1974925_servic_0_schedule" reference_floats="true" type="reference"/>
         <element label="Student" max_length="32" name="student" reference="sys_user" reference_qual="roles=x_1974925_servic_0.trainee^EQ" reference_qual_condition="roles=x_1974925_servic_0.trainee^EQ" type="reference"/>
         <element label="Repproval Reason" max_length="4000" name="reproval_reason" type="string"/>
     </element>
