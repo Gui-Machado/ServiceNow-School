@@ -15,7 +15,7 @@
         <mobile_title>Awaiting Approval</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_1974925_servic_0_enrollment</name>
-        <order>900</order>
+        <order>800</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -27,7 +27,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>af76496983f403103a6114d0deaad317</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Approved</sys_name>
         <sys_overrides/>
         <sys_package display_value="ServiceNow School" source="x_1974925_servic_0">c77f54ed83b003103a6114d0deaad36e</sys_package>
@@ -35,7 +35,7 @@
         <sys_scope display_value="ServiceNow School">c77f54ed83b003103a6114d0deaad36e</sys_scope>
         <sys_update_name>sys_app_module_af76496983f403103a6114d0deaad317</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-05-12 17:54:34</sys_updated_on>
+        <sys_updated_on>2026-05-14 17:06:46</sys_updated_on>
         <timeline_page/>
         <title>Approved</title>
         <uncancelable>false</uncancelable>

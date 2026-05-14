@@ -6,7 +6,7 @@
         <action_insert>false</action_insert>
         <action_query>false</action_query>
         <action_update>false</action_update>
-        <active>false</active>
+        <active>true</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
@@ -29,12 +29,19 @@
         <rest_service_text/>
         <rest_variables/>
         <role_conditions/>
-        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
 
-	// let grCourse = new GlideRecord("x_1974925_servic_0_schedule");
-	// grCourse.addQuery("sys_id", current.getAttribute("course"))
-	// current.course
-
+	//gs.info("Chamou a BR!");
+	grSchedule = new GlideRecord("x_1974925_servic_0_schedule");
+	grSchedule.addQuery("sys_id", current.course);
+	grSchedule.query();
+	if(grSchedule.next()){
+		//gs.info("Entrando no if");
+		gs.eventQueue("x_1974925_servic_0.enrollment_cancel", grSchedule, current.student.first_name, current.student.email);
+		grSchedule.current_students--;
+		grSchedule.update();
+	}
+	//gs.info("Saindo da Br...");
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -42,7 +49,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9497c09283f847103a6114d0deaad3e7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Lower student count &amp; send cancel notif</sys_name>
         <sys_overrides/>
         <sys_package display_value="ServiceNow School" source="x_1974925_servic_0">c77f54ed83b003103a6114d0deaad36e</sys_package>
@@ -50,7 +57,7 @@
         <sys_scope display_value="ServiceNow School">c77f54ed83b003103a6114d0deaad36e</sys_scope>
         <sys_update_name>sys_script_9497c09283f847103a6114d0deaad3e7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-05-13 20:59:23</sys_updated_on>
+        <sys_updated_on>2026-05-14 14:32:54</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
