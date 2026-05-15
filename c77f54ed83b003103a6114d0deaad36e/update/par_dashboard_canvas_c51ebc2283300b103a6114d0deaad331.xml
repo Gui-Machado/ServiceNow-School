@@ -2,14 +2,14 @@
     <par_dashboard_canvas action="INSERT_OR_UPDATE">
         <dashboard display_value="ServiceNow School Statistics">011ebc2283300b103a6114d0deaad30c</dashboard>
         <dashboard_tab display_value="List">8d1ebc2283300b103a6114d0deaad32b</dashboard_tab>
-        <layout>[{"sys_id":"d3f98de683700b103a6114d0deaad361","x":0,"y":0,"w":20,"h":35,"name":"Awaiting Approval","component_id":"2b1c080881e05dc63b917044290b233f","component_props":"{\"table\":\"x_1974925_servic_0_enrollment\",\"columnPreferenceKey\":\"\",\"fixedQuery\":\"\",\"followFilters\":true,\"listTitle\":\"Enrollments Awaiting Approval\",\"columns\":\"number,student,course,student.manager\",\"maxColumns\":4,\"query\":\"active=true\",\"groupByField\":\"\",\"hideViewAll\":false,\"hideHighlightedValues\":false,\"showBorder\":true,\"bare\":false,\"highlightedValueConfigId\":\"\",\"hideHighlightContent\":false,\"highlightContent\":{\"patterns\":[],\"color\":\"\"},\"hideLinks\":false,\"nrlLandmark\":true,\"wordWrap\":true,\"overrideWordWrapUserPref\":false,\"maxCharLimit\":4000,\"hideEmptyStateImage\":false,\"hidePersonalization\":true,\"hideDotwalk\":true,\"hideColumnReorder\":true,\"hideRowSelector\":false,\"hideColumnGrouping\":true,\"hideColumnResizing\":true,\"hideColumnFiltering\":true,\"hideColumnSorting\":true,\"hideHeader\":false,\"hideTitle\":false,\"hideTitleRowCount\":false,\"hideLastRefreshedText\":false,\"hideRefreshButton\":false,\"hideInlineEditing\":true,\"isDashboard\":true,\"refreshRequested\":\"\",\"id\":\"hideHighlightedValues\",\"value\":false,\"propLabel\":\"Hide highlighted values\",\"noDebounce\":true}","stored_component":"574d34ea83fcc7103a6114d0deaad386","can_edit":true}]</layout>
+        <layout>[{"sys_id":"d3f98de683700b103a6114d0deaad361","x":0,"y":0,"w":20,"h":40,"name":"Awaiting Approval","component_id":"2b1c080881e05dc63b917044290b233f","component_props":"{\"table\":\"x_1974925_servic_0_enrollment\",\"columnPreferenceKey\":\"\",\"fixedQuery\":\"\",\"followFilters\":true,\"listTitle\":\"Enrollments Awaiting Approval\",\"columns\":\"number,student,course,student.manager\",\"maxColumns\":4,\"query\":\"active=true\",\"groupByField\":\"\",\"hideViewAll\":false,\"hideHighlightedValues\":false,\"showBorder\":true,\"bare\":false,\"highlightedValueConfigId\":\"\",\"hideHighlightContent\":false,\"highlightContent\":{\"patterns\":[],\"color\":\"\"},\"hideLinks\":false,\"nrlLandmark\":true,\"wordWrap\":true,\"overrideWordWrapUserPref\":false,\"maxCharLimit\":4000,\"hideEmptyStateImage\":false,\"hidePersonalization\":true,\"hideDotwalk\":true,\"hideColumnReorder\":true,\"hideRowSelector\":false,\"hideColumnGrouping\":true,\"hideColumnResizing\":true,\"hideColumnFiltering\":true,\"hideColumnSorting\":true,\"hideHeader\":false,\"hideTitle\":false,\"hideTitleRowCount\":false,\"hideLastRefreshedText\":false,\"hideRefreshButton\":false,\"hideInlineEditing\":true,\"isDashboard\":true,\"limit\":15,\"id\":\"limit\",\"value\":15,\"propLabel\":\"Maximum rows\"}","can_edit":true}]</layout>
         <sys_class_name>par_dashboard_canvas</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-05-14 18:55:26</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c51ebc2283300b103a6114d0deaad331</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package display_value="ServiceNow School" source="x_1974925_servic_0">c77f54ed83b003103a6114d0deaad36e</sys_package>
@@ -17,6 +17,6 @@
         <sys_scope display_value="ServiceNow School">c77f54ed83b003103a6114d0deaad36e</sys_scope>
         <sys_update_name>par_dashboard_canvas_c51ebc2283300b103a6114d0deaad331</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-05-14 19:54:43</sys_updated_on>
+        <sys_updated_on>2026-05-15 21:09:39</sys_updated_on>
     </par_dashboard_canvas>
 </record_update>
